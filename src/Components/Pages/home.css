@@ -1,0 +1,30 @@
+:root{
+    --text:#fff;
+    --border:#bedfd4;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container h3{
+    font-size: 1.2rem;
+    color: var(--text);
+    font-weight: 100;
+    text-transform: capitalize;
+    text-align: center;
+}
+.container h1{
+    text-align: center;
+    color: var(--text);
+    font-size: 3rem;
+}
+
+
+.card-cover{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+

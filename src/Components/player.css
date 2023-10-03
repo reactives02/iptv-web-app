@@ -1,0 +1,97 @@
+.backbtn{
+    background: #bedfd4;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    margin: 8px 8px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    /* width: 40px;
+    height: 40px; */
+}
+
+.wrap{
+background-color: #012f63;
+    position: sticky;
+    top: 0px;
+    padding: 8px 0;
+    z-index: 200;
+}
+.vid{
+    /* background-color: aquamarine; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 40px;
+    display: none;
+    box-shadow: 0px 8px 40px -25px rgba(255, 253, 253, 0.5);
+}
+
+.countryimg img{
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 12px 50px -14px #99999993;
+}
+.countryimg{
+    margin: 25px 0px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.playerCardContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-top: 60vh; */
+}
+
+@media only screen and (max-width: 940px) {
+    .vid {
+      height: 50vh;
+    }
+  }
+@media only screen and (max-width: 800px) {
+    .vid {
+      height: 45vh;
+    }
+  }
+@media only screen and (max-width: 750px) {
+    .vid {
+      height: 40vh;
+    }
+    .countryimg{
+        height: 30vh;
+    }
+  }
+@media only screen and (max-width: 620px) {
+    .vid {
+      height: 35vh;
+    }
+  }
+@media only screen and (max-width: 580px) {
+    .vid {
+      height: 30vh;
+    }
+  }
+@media only screen and (max-width: 500px) {
+    .vid {
+      height: 20vh;
+    }
+    .countryimg{
+        height: 25vh;
+    }
+  }
+@media only screen and (max-width: 349px) {
+
+    .countryimg{
+        height: 18vh;
+    }
+
+   
+  }
